@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBS", "StoreBS\StoreBS.csproj", "{E730FAC2-C5CE-48F2-A3E0-21A9ED0A6AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDAL", "StoreDAL\StoreDAL.csproj", "{E83D03F9-C007-4FCF-A487-E7CACD707986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBLL", "StoreBLL\StoreBLL.csproj", "{B39979DF-6068-4185-96CD-B75845604478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E730FAC2-C5CE-48F2-A3E0-21A9ED0A6AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E730FAC2-C5CE-48F2-A3E0-21A9ED0A6AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E730FAC2-C5CE-48F2-A3E0-21A9ED0A6AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E730FAC2-C5CE-48F2-A3E0-21A9ED0A6AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39979DF-6068-4185-96CD-B75845604478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39979DF-6068-4185-96CD-B75845604478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39979DF-6068-4185-96CD-B75845604478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39979DF-6068-4185-96CD-B75845604478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83D03F9-C007-4FCF-A487-E7CACD707986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83D03F9-C007-4FCF-A487-E7CACD707986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83D03F9-C007-4FCF-A487-E7CACD707986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83D03F9-C007-4FCF-A487-E7CACD707986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

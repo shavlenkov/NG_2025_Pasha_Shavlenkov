@@ -1,0 +1,16 @@
+:root {
+    --color-background-start: #1E1E2F;
+    --color-background-end: #121212;
+    --color-text-main: #F0F0F0;
+    --color-quiz-background: #23232E;
+    --color-select-background: #2C2C3C;
+    --color-border-image: #444;
+    --color-option-background: #2E2E3F;
+    --color-option-hover: #3D3D55;
+    --color-button-background: #44475A;
+    --color-button-hover: #5A5A75;
+    --color-stats: #CCC;
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-black-transperent-40: rgba(0, 0, 0, 0.4);
+}

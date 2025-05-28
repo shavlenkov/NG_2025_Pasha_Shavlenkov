@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, var(--color-background-start), var(--color-background-end));
+    color: var(--color-text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz {
+    background: var(--color-quiz-background);
+    padding: 24px;
+    border-radius: 16px;
+    width: 400px;
+    box-shadow: 0 12px 24px var(--color-black-transperent-40);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.quiz:hover {
+    transform: scale(1.01);
+}
+
+.quiz__title {
+    margin-bottom: 12px;
+}
+
+.quiz__difficulty {
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.quiz__select {
+    background: var(--color-select-background);
+    color: var(--color-white);
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.quiz__image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    border: 3px solid var(--color-border-image);
+}
+
+.quiz__question {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.quiz__options .option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: var(--color-option-background);
+    color: var(--color-white);
+    font-size: 16px;
+    transition: background 0.2s, transform 0.1s;
+    cursor: pointer;
+}
+
+.quiz__options .option:hover {
+    background: var(--color-option-hover);
+    transform: scale(1.02);
+}
+
+.quiz__controls {
+    margin-top: 12px;
+}
+
+.quiz__button {
+    margin: 0 6px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: var(--color-button-background);
+    color: var(--color-white);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.quiz__button:hover {
+    background: var(--color-button-hover);
+}
+
+.quiz__stats {
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--color-stats);
+}
